@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.main{
+    background-color: aqua;
+    width: 100%;
+    height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+
+#box{
+
+    width: 50%;
+  
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+}
+.row{
+width: 100%;
+margin: 2rem;
+margin-left: 15px;
+}
+
+
+.buttons{
+   
+   width: 100%;
+   display: flex;
+   justify-content: center;
+}
+.button{
+    width: 70%;
+    height: 35px;
+    background-color: aqua;
+    font-size: 22px;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    display: inline;
+ 
+}
+
+
+
+ .button:hover{
+     background-color:rgb(1, 90, 90);
+     color: white;
+     box-shadow: 2px 2px 4px 2px aqua;
+     transition: 1s;
+ }
+ 
+
+
+
+.pre{
+    width: 25%;
+    height: 35px;
+    background-color: rgb(168, 236, 236);
+    font-size: 22px;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: 2px 2px 1px 1px black;
+    margin-right: 10px;
+}
+.next{
+    width: 25%;
+    height: 35px;
+    background-color: rgb(175, 245, 245);
+    font-size: 22px;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: 2px 2px 1px 1px black;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
